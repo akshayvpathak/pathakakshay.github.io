@@ -1,10 +1,46 @@
 <html>
 <head>
 <title>
-Hello there
+Calculator
 </title>
+<link href = "styles.css" type = "text/css" rel = "stylesheet" />
+<script type="text/javascript" src = "script.js">
+</script>
 </head>
 <body>
-It's Worked
+<table>
+<form action="" name="myform">
+<tr>
+<td colspan="5"><input type="text" placeholder="0" name="result" readonly></td>
+</tr>
+<tr>
+<td><input type = "button" value="7" name = "7" onclick = "dis('7')"></td>
+<td><input type = "button" value="8" name = "8" onclick = "dis('8')"></td>
+<td><input type = "button" value="9" name = "9" onclick = "dis('9')"></td>
+<td><input type = "button" value="/" name = "/" onclick = "dis('/')"></td>
+<td><input type = "button" value="%" name = "%" onclick = "dis('%')"></td>
+</tr>
+<tr>
+<td><input type = "button" value="4" name = "4" onclick = "dis('4')"></td>
+<td><input type = "button" value="5" name = "5" onclick = "dis('5')"></td>
+<td><input type = "button" value="6" name = "6" onclick = "dis('6')"></td>
+<td><input type = "button" value="*" name = "*" onclick = "dis('*')"></td>
+<td><input type = "button" value="C" name = "C" onclick = "clearscreen()"></td>
+
+</tr>
+<tr>
+<td><input type = "button" value="1" name = "1" onclick = "dis('1')"></td>
+<td><input type = "button" value="2" name = "2" onclick = "dis('2')"></td>
+<td><input type = "button" value="3" name = "3" onclick = "dis('3')"></td>
+<td><input type = "button" value="-" name = "-" onclick = "dis('-')"></td>
+<td rowspan="2"><input type = "button" value="=" name = "=" onclick = "solve()"></td>
+</tr>
+<tr>
+<td colspan = "2"><input type = "button" value="0" name = "0" onclick = "dis(0)"></td>
+<td ><input type = "button" value="." name = "." onclick = "dis('.')"></td>
+<td><input type = "button" value="+" name = "+" onclick = "dis('+')"></td>
+</tr>
+</form>
+</table>
 </body>
 </html>
