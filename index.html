@@ -4,7 +4,21 @@
 Calculator
 </title>
 <link href = "styles.css" type = "text/css" rel = "stylesheet" />
-<script type="text/javascript" src = "script.js">
+<script type="text/javascript">
+  function dis(val)
+{
+	myform.result.value += val;
+}
+function clearscreen()
+{
+	myform.result.value = "";
+}
+function solve()
+{
+	let x = myform.result.value;
+	let y  = eval(x);
+	myform.result.value = y;
+}
 </script>
 </head>
 <body>
