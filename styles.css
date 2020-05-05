@@ -1,0 +1,31 @@
+table
+{
+	width:300px;
+	height :300px;
+	border: 1px solid #676963;
+	background-color:B8CDD6;
+}
+
+td
+{
+	padding :3px;
+	text-align :center;
+}
+input
+{
+	width :100%;
+	height:100%;
+	background-color: #F1E8E8;
+	font-weight:bold;
+	border: 1px solid #1B1C10;
+	border-radius:10px;
+	font-size:20px;
+}
+input[type = "button"]:hover
+{
+	background-color: #FOEA46;
+	background: -webkit-gradient(linear, left top,left bottom, from(#F0EA46), to(#F1E8E8));
+	background:-moz-linear-gradient(top, #F0EA46, #F1E8E8);
+	background:-o-linear-gradient(top, #F0EA46, #F1E8E8);
+	background:-ms-linear-gradient(top, #F0EA46, #F1E8E8);
+}
